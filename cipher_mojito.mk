@@ -14,6 +14,9 @@ $(call inherit-product, device/xiaomi/mojito/device.mk)
 # Inherit from CipherOS
 $(call inherit-product, vendor/cipher/config/common_full_phone.mk)
 
+# Inherit from ANXCamera
+$(call inherit-product, vendor/xiaomi/ANXCamera/config.mk)
+
 # CipherOS flags
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
