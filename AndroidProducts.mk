@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/spiceos_mojito.mk
+    $(LOCAL_DIR)/cipher_mojito.mk
 
 COMMON_LUNCH_CHOICES := \
-    spiceos_mojito-eng \
-    spiceos_mojito-userdebug \
-    spiceos_mojito-eng
+    cipher_mojito-eng \
+    cipher_mojito-userdebug \
+    cipher_mojito-eng
